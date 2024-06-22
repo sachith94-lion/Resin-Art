@@ -57,12 +57,15 @@
 }
 .container .contactInfo .box .icon 
 {
+	display: flex;
+	color: #333;
+	font-size: 3rem;
 	min-width: 60px;
 	height: 60px;
 	background: #fff;
 	justify-content: center;
 	align-items: center;
-	boder-radius:50%;
+	border-radius: 50%;
 	font-size: 22px;
 }
 .container .contactInfo .box .text

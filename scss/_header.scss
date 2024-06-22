@@ -67,6 +67,9 @@
   .hamburger,
   .close {
     display: none;
+    @include respond-to("sm") {
+     display: block;
+    }
   }
 
   @media (min-width: 1600px) {

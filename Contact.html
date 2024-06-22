@@ -5,7 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Responsive Contact US Page</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+	<link rel="stylesheet" href="scss/main.css" />
 	<link rel="stylesheet" type="text/css" href="Style3.css">
+	<link
+	href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+	rel="stylesheet"
+  />
 	<style type="text/css">
 		ul{
 			list-style-type:none;
@@ -53,7 +58,7 @@
 	</style>
 </head>
 <body>
-	<ul>
+	<!-- <ul>
 		<li><a href="#Contact">Contact</a></li>
 		
 		<li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Collection</a></li>
@@ -65,7 +70,34 @@
 		</div>
 		<li><a href="#Home">Home</a></li>
 	
-		</ul>
+		</ul> -->
+		<!-- ====== Navigation ====== -->
+		<div class="header">
+			<nav class="navbar">
+			  <div class="row container flex">
+				<div class="logo">
+				  <span class="main-logo">Resin Art Style Craft</span>
+				</div>
+	  
+				<div class="nav-list d-flex">
+				  <a href="/Index.html">Home</a>
+				  <a href="">Shop</a>
+				  <a href="">Pages</a>
+				  <a href="">About Us</a>
+				  <a href="/Contact.html">Contact</a>
+				</div>
+	  
+				<div class="icons d-flex">
+				  <div class="icon d-flex"><i class="ri-search-line"></i></div>
+				</div>
+	  
+				<!-- Hamburger -->
+				<div class="hamburger">
+				  <i class="ri-menu-line"></i>
+				</div>
+			  </div>
+			</nav>
+		  </div>
 	<section class="contact">
 		<div class="content">
 			<h2>Contact Us</h2>
@@ -74,21 +106,21 @@
 		<div class="container">
 			<div class="contactInfo">
 				<div class="box">
-					<div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+					<div class="icon"><i class="ri-map-pin-fill"></i></div>
 						<div class="text">
 							<h3>Address</h3>
 							<p>sara mawatha,<br>mawathagama,<br>kurunegle</p>
 						</div>
 					</div>
 									<div class="box">
-					<div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+					<div class="icon"><i class="ri-phone-fill"></i></div>
 						<div class="text">
 							<h3>Phone</h3>
 							<p>077-xxxxxxx</p>
 						</div>
 					</div>
 									<div class="box">
-					<div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+					<div class="icon"><i class="ri-mail-fill"></i></div>
 						<div class="text">
 							<h3>Eamil</h3>
 							<p>resin_artstylecraft@gmail.com</p>
@@ -118,6 +150,75 @@
 					
 				</div>
 	</section>
+
+	    <!-- ====== Footer ====== -->
+		<footer class="footer">
+			<div class="row container">
+			  <div class="col">
+				<div class="logo d-flex">
+				  <span class="main-logo">Resin Art Style Craft</span>
+				</div>
+				<p>
+				  Lorem ispum is a placeholder text <br />
+				  commonly used as a free text.
+				</p>
+				<div class="icons d-flex">
+				  <div class="icon d-flex">
+					<i class="ri-facebook-fill"></i>
+				  </div>
+				  <div class="icon d-flex"><i class="ri-twitter-x-line"></i></div>
+				  <div class="icon d-flex"><i class="ri-instagram-line"></i></div>
+				  <div class="icon d-flex"><i class="ri-youtube-fill"></i></div>
+				</div>
+				<p class="color">
+				  Copyrights 2024 <br />
+				  @Iamabdulqadeer01
+				</p>
+			  </div>
+			  <div class="col">
+				<div>
+				  <h4>Product</h4>
+				  <a href="">Download</a>
+				  <a href="">Pricing</a>
+				  <a href="">Locations</a>
+				  <a href="">Server</a>
+				  <a href="">Countries</a>
+				  <a href="">Blog</a>
+				</div>
+				<div>
+				  <h4>Category</h4>
+				  <a href="">Men</a>
+				  <a href="">Women</a>
+				  <a href="">Kids</a>
+				  <a href="">Best Seller</a>
+				  <a href="">New Arrivals</a>
+				</div>
+				<div>
+				  <h4>My Account</h4>
+				  <a href="">My Account</a>
+				  <a href="">Discount</a>
+				  <a href="">Returns</a>
+				  <a href="">Order History</a>
+				  <a href="">Order Tracking</a>
+				</div>
+				<div>
+				  <h4>Contact Us</h4>
+				  <div class="d-flex">
+					<div class="icon"><i class="ri-map-pin-fill"></i></div>
+					<span>123 Street Trafford, London, UK</span>
+				  </div>
+				  <div class="d-flex">
+					<div class="icon"><i class="ri-mail-fill"></i></div>
+					<span>info@sitename.com</span>
+				  </div>
+				  <div class="d-flex">
+					<div class="icon"><i class="ri-phone-fill"></i></div>
+					<span>+456 789 789 001</span>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </footer>
 
 </body>
 </html>

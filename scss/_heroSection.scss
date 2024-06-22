@@ -1,6 +1,10 @@
 /* ========== Hero Area =========== */
 .hero {
   margin: 0 3rem;
+  @include respond-to("sm") {
+    margin: 0;
+  }
+
 
   .row {
     height: 100%;
@@ -21,11 +25,15 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin: 0 3rem;
 
         h1 {
           font-family: "Aclonica", sans-serif;
           font-size: 10rem;
           color: white;
+          @include respond-to("sm") {
+            font-size: 4rem;
+          }
         }
 
         p {
