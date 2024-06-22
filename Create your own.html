@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Collection item</title>
+	<link rel="stylesheet"  href="Style2.css">
+	<style>
+		ul{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+			background-color:#333;
+		}
+		li{
+			float:right;
+		}
+		li a{
+			display:block;
+			color:white;
+			text-align:center;
+			padding:14px 16px;
+			text-decoration:none;
+			background-color:#020400;
+		}
+		li a:hover:not(.active){
+			background-color:#111;
+		}
+		.active{
+			background-color:#04AA6D;
+		}
+		li a:hover, .dropdown:hover .dropbtn{
+			background-color: #515251;
+		}
+		li.dropdown{
+			display:inline-block;
+		}
+		.dropdown-content a{
+			display:none;
+			position:absolute;
+			background-color:#f9f9f9;
+			min-width:160px;
+			box-shadow:0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			z-index:1;
+		}
+		.dropdown-content a:hover{background-color:#f1f1f1;
+		}
+		.dropdown:hover .dropdown-content{
+			display:block;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="#Contact">Contact</a></li>
+		
+		<li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Collection</a></li>
+		<div class="dropdown-content">
+			<a href="#">Key tags</a>
+			<a href="#">Equipment</a>
+			<a href="#">Jewelry</a>
+			<a href="#">Free Style</a>
+		</div>
+		<li><a href="#Home">Home</a></li>
+	
+		</ul>
+</head>
+<body>
+<section id="Collection">
+	<div class="container">
+  <img src="background2.jpg" alt="Cinque Terre" width="1000" height="300">
+  
+  <div class="text" class="center">You can create your own</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</section>
+<section>
+	<ul>
+			<li>2</li>
+			<li>2</li>
+			<li>2</li>
+			<li>2</li>
+		</ul>
+</section>
+</body>
+</html>
